@@ -1,0 +1,16 @@
+{
+  "name": "historypp-react-router",
+  "version": "0.0.1",
+  "description": "React router with animations that ONLY works with historypp",
+  "main": "dist/historypp-react-router.js",
+  "repository": "https://github.com/Martoxdlol/historypp-react-router",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "history",
+    "web"
+  ],
+  "author": "Tomás Cichero <martoxdlol@gmail.com>",
+  "license": "ISC"
+}

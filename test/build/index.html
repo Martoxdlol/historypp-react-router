@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React: HistoryPP - Router - Dialogs</title>
+    <link rel="stylesheet" href="/app.css">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en" />
+    <link rel="manifest" href="/manifest.json">
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- IE11 -->
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+
+    <script src="/app.bundle.js" charset="utf-8"></script>
+    <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function(){
+        navigator.serviceWorker.register('/sw.js') // We won't that on dev, lucky us it throws 404
+      })
+    }
+    </script>
+  </body>
+</html>
